@@ -135,8 +135,8 @@
             <div className="grid grid-cols-2 gap-8">
                 <div className="space-y-4">
                 <p className="text-[10px] uppercase tracking-widest text-cyan-500 font-bold">Inquiries</p>
-                <a href="mailto:rohankumar21545@gmail.com" className="text-lg hover:text-white transition-colors block">Email Me</a>
-                <a href="/resume.pdf" download className="text-lg hover:text-white transition-colors block">Download Resume</a>
+                <a href="mailto:rohankumar21545@gmail.com" className="text-lg hover:text-white transition-colors block">Get in touch Via Email </a>
+                <a href="/RohanKumar-Resume.pdf" download className="text-lg hover:text-white transition-colors block">Download Resume</a>
                 </div>
                 <div className="space-y-4">
                 <p className="text-[10px] uppercase tracking-widest text-cyan-500 font-bold">Socials</p>

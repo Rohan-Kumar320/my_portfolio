@@ -80,7 +80,7 @@ const Contact = () => {
 
                     <div className="flex flex-col gap-6 text-slate-400">
                         <a href="mailto:rohankumar21545@gmail.com" className="flex items-center gap-4 text-xl hover:text-cyan-400 transition-colors group w-fit">
-                            <FiMail className="group-hover:scale-110 transition-transform" /> rohankumar21545@gmail.com
+                            <FiMail className="group-hover:scale-110 transition-transform" /> Get in touch Via Email 
                         </a>
                         <div className="flex gap-5">
                             {[
