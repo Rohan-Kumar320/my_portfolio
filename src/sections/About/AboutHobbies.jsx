@@ -25,14 +25,14 @@ const AboutHobbies = ({ progress }) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 lg:gap-24 relative z-10 max-w-7xl mx-auto">
                 {hobbies.map((hobby, index) => (
                     <motion.div
-                        key={hobby.id}
-                        initial={{ opacity: 0, y: 40 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8, delay: index * 0.1 }}
-                        // This adds the "Staircase" offset to the second column on desktop
-                        className={`relative group ${index % 2 !== 0 ? "md:mt-32" : ""}`}
-                    >
+    key={hobby.id}
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8, delay: index * 0.1 }}
+    className={`relative group ${index % 2 !== 0 ? "md:mt-32" : ""}`}
+>
+    
                         <div className="relative overflow-hidden rounded-2xl md:rounded-[2.5rem] bg-slate-900 aspect-4/5">
                             {/* Overlay Gradient */}
                             <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80 z-10 transition-opacity group-hover:opacity-40" />

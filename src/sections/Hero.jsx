@@ -352,11 +352,10 @@ const Hero = () => {
     <section
       id="hero"
       ref={containerRef}
-      // style={{
-      //   position: "relative",
-      // }}
+      style={{
+        position: "relative",
+      }}
       className="
-      relative
         h-[250vh]
         bg-[#08080a]
         selection:bg-indigo-500/30

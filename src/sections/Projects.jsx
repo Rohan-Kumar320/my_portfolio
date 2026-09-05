@@ -115,11 +115,11 @@ const Projects = () => {
     <section
       id="projects"
       ref={containerRef}
-      // style={{
-      //   position: "relative",
-      // }}
+      style={{
+        position: "relative",
+      }}
       className="
-      relative
+     
         h-[400vh]
         bg-[#293653]
         scroll-mt-0
@@ -336,7 +336,7 @@ const ProjectCard = ({ project, navigate }) => {
               TAGS
           ================================= */}
 
-          <div className="flex gap-2 mb-3">
+          {/* <div className="flex gap-2 mb-3">
 
             {project.tags.map((tag) => (
               <span
@@ -357,7 +357,19 @@ const ProjectCard = ({ project, navigate }) => {
               </span>
             ))}
 
-          </div>
+          </div> */}
+
+{/* TAGS */}
+<div className="flex flex-wrap gap-1.5 mb-3 max-w-full">
+  {project.tags.map((tag) => (
+    <span
+      key={tag}
+      className="text-[10px] text-blue-800 font-bold uppercase tracking-wider bg-white/60 px-2.5 py-0.5 rounded-full backdrop-blur-sm max-w-[150px] truncate"
+    >
+      {tag}
+    </span>
+  ))}
+</div>
 
 
           {/* =================================

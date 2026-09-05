@@ -104,19 +104,24 @@ import AboutHobbies from './AboutHobbies';
 
 const About = () => {
   const containerRef = useRef(null);
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start start", "end end"]
+    offset: ["start start", "end end"],
   });
 
   return (
-    <div ref={containerRef} id="about" className="relative">
+    <div
+      ref={containerRef}
+      id="about"
+      className="relative"
+      style={{ position: "relative" }}
+    >
       <AboutBio progress={scrollYProgress} />
       <AboutServices />
       <AboutHobbies progress={scrollYProgress} />
     </div>
   );
 };
-
 export default About;
 

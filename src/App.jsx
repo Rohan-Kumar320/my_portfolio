@@ -119,7 +119,7 @@ const AppContent = () => {
           top-0
           left-0
           right-0
-          h-[4px]
+          h-1
           bg-blue-600
           origin-left
           z-[1000]
