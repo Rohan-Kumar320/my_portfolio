@@ -143,8 +143,11 @@
                 <div className="flex gap-4">
                     {[
                         { Icon: FiGithub, url: "https://github.com/Rohan-Kumar320/" },
-                        { Icon: FiLinkedin, url: "https://linkedin.com/in/yourprofile" },
-                        { Icon: FiInstagram, url: "https://www.instagram.com/iam_rohank18/" },
+
+
+                        { Icon: FiLinkedin, url: "www.linkedin.com/in/rohankumar2005" },
+
+                        
                     ].map((item, i) => (
                         <motion.a 
                             key={i} 
