@@ -143,9 +143,7 @@
                 <div className="flex gap-4">
                     {[
                         { Icon: FiGithub, url: "https://github.com/Rohan-Kumar320/" },
-
-
-                        { Icon: FiLinkedin, url: "www.linkedin.com/in/rohankumar2005" },
+                        { Icon: FiLinkedin, url: "https://linkedin.com/in/rohankumar2005" },
 
                         
                     ].map((item, i) => (
